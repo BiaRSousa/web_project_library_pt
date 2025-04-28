@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff">Escolhas do Leitor</a>
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Seja um membro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+              use esse belo local para trabalhar ou estudar. Esse é um lugar
+              legal para estudantes legais!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustração 'Dentro da biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Escolhas do Leitor</h2>
+          <p class="staff__subtitle">Aventura e mistérios nunca são demais</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">O Pequeno Príncipe</h3>
+                <p class="card__text">
+                  Uma das obras literárias mais traduzidas no mundo, tendo sido
+                  publicado em mais de 220 idiomas e dialetos. O livro aborda de
+                  forma ludica questões que assolam a todos como a solidão,
+                  amizade, amor e perda. Embora seja muito vinculado a crianças,
+                  os temas abordados deveriam ser lido e sentido por todos.
+                </p>
+                <p class="card__footer">Antoine de Saint-Exupéry</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">O Assassinato de Roger Ackroyd</h3>
+                <p class="card__text">
+                  Tendo tudo que um bom Romance policial deve ter, é o grande
+                  primeiro sucesso de sua autora. Conta com a participação do
+                  detetive Hercule Poirot que com a ajuda do Doutor Sheppard
+                  investiga a morte de Roger Ackroyd. A investigação é tortuosa
+                  e Poirot conclui que cada suspeito tem algum segredo. No
+                  entanto ele acaba por encontrar o verdadeiro autor do crime.
+                </p>
+                <p class="card__footer">Agatha Christie</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">O Código Da Vinci</h3>
+                <p class="card__text">
+                  A história segue o simbologista Robert Langdon e a
+                  criptologista Sophie Neveu após um assassinato no Museu do
+                  Louvre. O romance explora uma história religiosa alternativa,
+                  cujo enredo central é que os Reis Merovíngios eram
+                  descendentes da linhagem de Jesus Cristo e Maria Madalena.
+                </p>
+                <p class="card__footer">Dan Brown</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Memórias Póstumas de Brás Cubas</h3>
+                <p class="card__text">
+                  Narrado em primeira pessoa, seu autor é Brás Cubas, um
+                  "defunto-autor", que deseja escrever a sua autobiografia.
+                  Nascido numa típica família da elite carioca do século XIX, do
+                  túmulo o morto escreve suas memórias póstumas retratando a
+                  escravidão, as classes sociais, o cientificismo e o
+                  positivismo da época.
+                </p>
+                <p class="card__footer">Machado de Assis</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
