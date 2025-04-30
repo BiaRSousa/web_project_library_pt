@@ -240,26 +240,32 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+
 }
 
-.person_name_feynman {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+.person__name_feynman {
+  top: -30px;
+  left: 319px;
 }
 
-.person_name_burbidge {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+.person__name_burbidge {
+  top: 96px;
+  right: 125px;
 }
 
-.person_name_cannon {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+.person__name_cannon {
+  bottom: 18px;
+  right: 216px;
 }
 
-.person_name_mitchell {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+.person__name_mitchell {
+  bottom: 82px;
+  left: 142px;
 }
 
-.person_name_tarter {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+.person__name_tarter {
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
