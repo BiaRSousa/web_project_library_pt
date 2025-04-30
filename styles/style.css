@@ -234,7 +234,7 @@
   max-width: 100%;
 }
 
-.person__name {
+.person {
   position: absolute;
   display: flex;
   align-items: center;
